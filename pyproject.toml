@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Linux-ToolKit"
-version = "1.0.0"
+version = "1.0.1"
 description = "Kit de herramientas visual para la administración de sistemas Linux mediante línea de comandos"
 readme = "README.md"
 requires-python = ">=3.11"

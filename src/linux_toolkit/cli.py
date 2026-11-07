@@ -15,7 +15,7 @@ from linux_toolkit.core.registry import CommandRegistry
 from linux_toolkit.core.runner import CommandRunner
 
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 console = Console()
 
