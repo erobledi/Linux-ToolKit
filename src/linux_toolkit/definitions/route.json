@@ -1,0 +1,8 @@
+
+{
+    "name": "route",
+    "description": "Muestra la tabla de enrutamiento de red del sistema",
+    "module": "network",
+    "function": "show_routes",
+    "enabled": true
+}

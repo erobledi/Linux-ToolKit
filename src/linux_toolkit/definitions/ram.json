@@ -1,0 +1,7 @@
+{
+    "name": "ram",
+    "description": "Muestra el consumo de memoria RAM y Swap",
+    "module": "system",
+    "function": "show_ram",
+    "enabled": true
+}

@@ -1,0 +1,8 @@
+
+{
+    "name": "processes",
+    "description": "Muestra los procesos activos y su consumo de recursos",
+    "module": "system",
+    "function": "show_processes",
+    "enabled": true
+}

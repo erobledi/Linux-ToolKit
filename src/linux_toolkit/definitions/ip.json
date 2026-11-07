@@ -1,0 +1,7 @@
+﻿{
+    "name": "ip",
+    "description": "Muestra la configuración de red del sistema",
+    "module": "network",
+    "function": "show_ip",
+    "enabled": true
+}

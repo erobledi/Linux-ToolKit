@@ -1,0 +1,8 @@
+﻿
+{
+    "name": "disk",
+    "description": "Muestra información de los discos y particiones del sistema",
+    "module": "storage",
+    "function": "show_disk",
+    "enabled": true
+}

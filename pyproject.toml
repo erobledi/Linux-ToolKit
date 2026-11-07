@@ -1,0 +1,40 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Linux-ToolKit"
+version = "1.0.0"
+description = "Kit de herramientas visual para la administración de sistemas Linux mediante línea de comandos"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "erobledi" }
+]
+
+dependencies = [
+    "rich>=13.7.0",
+    "psutil>=5.9.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/erobledi/Linux-ToolKit"
+Repository = "https://github.com/erobledi/Linux-ToolKit"
+Issues = "https://github.com/erobledi/Linux-ToolKit/issues"
+
+[project.scripts]
+ltk = "linux_toolkit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+linux_toolkit = ["definitions/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

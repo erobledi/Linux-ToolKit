@@ -1,0 +1,8 @@
+
+{
+    "name": "services",
+    "description": "Muestra información y estado de los servicios del sistema",
+    "module": "system",
+    "function": "show_services",
+    "enabled": true
+}

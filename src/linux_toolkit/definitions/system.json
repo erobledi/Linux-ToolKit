@@ -1,0 +1,8 @@
+﻿
+{
+    "name": "system",
+    "description": "Muestra información general del sistema operativo y del equipo",
+    "module": "system",
+    "function": "show_system",
+    "enabled": true
+}

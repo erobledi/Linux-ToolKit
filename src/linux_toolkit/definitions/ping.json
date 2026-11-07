@@ -1,0 +1,8 @@
+﻿
+{
+    "name": "ping",
+    "description": "Comprueba la conectividad de red con otro equipo",
+    "module": "network",
+    "function": "ping_host",
+    "enabled": true
+}

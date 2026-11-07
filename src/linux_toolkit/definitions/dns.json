@@ -1,0 +1,8 @@
+
+{
+    "name": "dns",
+    "description": "Consulta la resolución DNS de dominios y muestra sus direcciones IP",
+    "module": "network",
+    "function": "lookup_dns",
+    "enabled": true
+}
